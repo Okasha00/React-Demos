@@ -1,0 +1,18 @@
+h1 {
+  color: rgb(4, 238, 63);
+  text-align: center;
+}
+
+h2 {
+  color: rgb(75, 253, 4);
+  text-align: center;
+}
+
+button {
+  padding: 8px 15px;
+  cursor: pointer;
+  color: chartreuse;
+}
+div {
+  color: rgb(4, 238, 63);
+}
