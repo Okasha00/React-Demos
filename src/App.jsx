@@ -4,6 +4,7 @@ import Counter from './Counter';
 import './App.css';
 import PeopleList from './PeopleList';
 import FruitList from './FruitList';
+import NameInput from './NameInput';
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
 <Counter />
   <PeopleList />
   <FruitList />
+  <NameInput />
 
     </div>
   );
