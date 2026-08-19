@@ -5,6 +5,7 @@ import './App.css';
 import PeopleList from './PeopleList';
 import FruitList from './FruitList';
 import NameInput from './NameInput';
+import Summary from './Summary';
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
   <NameInput />
 
   <Counter count={count} onIncrement={() => setCount(count + 1)} />
+  <Summary count={count} />
 
     </div>
   );
