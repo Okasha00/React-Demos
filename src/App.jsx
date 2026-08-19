@@ -28,6 +28,8 @@ function App() {
   <FruitList />
   <NameInput />
 
+  <Counter count={count} onIncrement={() => setCount(count + 1)} />
+
     </div>
   );
   

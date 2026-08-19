@@ -1,28 +1,37 @@
 import {useState, useEffect} from "react";
 
-function Counter() 
-{
-    const [count, setCount] = useState(0);
+// function Counter() 
+// {
+//     const [count, setCount] = useState(0);
 
-    useEffect(() => { 
-        console.log("count changed to: " + count);
-    } , [count]); 
+//     useEffect(() => { 
+//         console.log("count changed to: " + count);
+//     } , [count]); 
 
 
-    useEffect (() =>{
-        console.log("Component mounted");
-    }, []);
+//     useEffect (() =>{
+//         console.log("Component mounted");
+//     }, []);
 
-    useEffect(() => {
-        document.title = `Clicked ${count} times` ;
-    }, [count]);
+//     useEffect(() => {
+//         document.title = `Clicked ${count} times` ;
+//     }, [count]);
 
-    return(
+//     return(
+//         <div>
+//             <p> You clicked {count} times</p>
+//             <button onClick={() => setCount (count + 1)} >Click Me</button>
+
+//             {count >= 3 && <p>You clicked 3 or more times!</p>}
+//         </div>
+//     );
+// }
+
+function Counter({count, onIncrement}) {
+    return (
         <div>
-            <p> You clicked {count} times</p>
-            <button onClick={() => setCount (count + 1)} >Click Me</button>
-
-            {count >= 3 && <p>You clicked 3 or more times!</p>}
+            <p>You clicked {count} times</p>
+            <button onClick={onIncrement}>Click Me</button>
         </div>
     );
 }
