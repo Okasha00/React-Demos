@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Greeting from './Greeting';
 import Counter from './Counter';
 import './App.css';
@@ -10,6 +10,7 @@ function App() {
 
   const name = "sameer";
   const year = 2025;
+  const [count, setCount] = useState(0);
 
   
 
@@ -23,7 +24,7 @@ function App() {
   < Greeting username = "Alice"  age={30}/>
   < Greeting username = "Bob"  age={35}/> */}
 
-<Counter />
+{/* <Counter /> */}
   <PeopleList />
   <FruitList />
   <NameInput />
