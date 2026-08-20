@@ -111,3 +111,41 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+div {
+  box-sizing: border-box;
+  padding: 10px ;
+}
+
+button {
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--text-h);
+  background: var(--accent-bg);
+  border: 1px solid var(--accent-border);
+  border-radius: 6px;
+  padding: 19px 19px;
+  cursor: pointer;
+}
+
+input {
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--text-h);
+  background: var(--accent-bg);
+  border: 1px solid var(--accent-border);
+  border-radius: 6px;
+  padding: 19px 19px;
+  color:chartreuse;
+  margin-bottom: 20px;
+}
+input {
+  margin-bottom: 20px;
+}
+
+
+button {
+  margin-top: 40px;
+}

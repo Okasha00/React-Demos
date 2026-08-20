@@ -7,6 +7,8 @@ import FruitList from './FruitList';
 import NameInput from './NameInput';
 import Summary from './Summary';
 
+
+
 function App() {
 
   const name = "sameer";
