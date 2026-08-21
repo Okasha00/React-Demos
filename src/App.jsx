@@ -6,6 +6,7 @@ import PeopleList from './PeopleList';
 import FruitList from './FruitList';
 import NameInput from './NameInput';
 import Summary from './Summary';
+import SimpleForm from './SimpleForm';
 
 
 
@@ -34,11 +35,13 @@ function App() {
 
   <Counter count={count} onIncrement={() => setCount(count + 1)} />
   <Summary count={count} />
+  <SimpleForm />
 
     </div>
   );
   
 }
+
 
 export default App;
 
