@@ -8,6 +8,7 @@ import NameInput from './NameInput';
 import Summary from './Summary';
 import SimpleForm from './SimpleForm';
 import PracticeState from './PracticeState';
+import PracticeEffect from './PracticeEffect';
 
 
 
@@ -39,6 +40,7 @@ function App() {
   <SimpleForm />
 
   <PracticeState />
+  <PracticeEffect />
 
     </div>
   );
