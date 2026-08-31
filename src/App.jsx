@@ -11,6 +11,7 @@ import PracticeState from './PracticeState';
 import PracticeEffect from './PracticeEffect';
 import PracticeConditional from './PracticeConditional';
 import PracticeList from './PracticeList';
+import PracticeInput from './PracticeInput';
 
 
 
@@ -45,6 +46,7 @@ function App() {
   <PracticeEffect />
   <PracticeConditional />
   <PracticeList />
+  <PracticeInput />
 
     </div>
   );
