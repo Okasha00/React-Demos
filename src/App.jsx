@@ -9,6 +9,8 @@ import Summary from './Summary';
 import SimpleForm from './SimpleForm';
 import PracticeState from './PracticeState';
 import PracticeEffect from './PracticeEffect';
+import PracticeConditional from './PracticeConditional';
+import PracticeList from './PracticeList';
 
 
 
@@ -41,6 +43,8 @@ function App() {
 
   <PracticeState />
   <PracticeEffect />
+  <PracticeConditional />
+  <PracticeList />
 
     </div>
   );
